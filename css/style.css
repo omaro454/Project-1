@@ -3,11 +3,11 @@
   }
   
 header{
-    font-size: 30px;
+    font-size: 50px;
     padding: 40px;
     text-align: center;
-    background: gold;
-    color: black;
+    background-color: transparent;
+    color: whitesmoke;
 
 }
 main {
@@ -16,7 +16,7 @@ main {
     justify-content: space-around;
   }
   body{
-    background-image: url(/css/Denver-skyline.jpeg);
+    background-image: url("./Denver-skyline.jpeg");
     background-color: blue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
@@ -34,27 +34,13 @@ main {
     justify-content: center;
 }
 
-.button1{
+.button{
     background-color: red;
+    opacity: 93%;
+    width: 400px;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     font-size: 16px;
 }
-  .button2{
-    background-color: red;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-  }
-  .button3{
-    background-color: red; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-  }
