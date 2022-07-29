@@ -35,12 +35,14 @@ main {
 }
 
 .button{
-    background-color: red;
+    background-color: transparent;
     opacity: 93%;
     width: 400px;
-    border: none;
+    border: solid;
+    border-color: white;
     color: white;
     padding: 15px 32px;
     text-align: center;
-    font-size: 16px;
+    font-size: 25px;
+    font-weight: bolder;
 }
