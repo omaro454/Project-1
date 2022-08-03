@@ -48,16 +48,8 @@ main {
 }
 
 /* Restaurant Dropdown  */
-.dropbtn {
-    background-color: #04AA6D;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
   
-  .dropbtn:hover, .dropbtn:focus {
+  .button:hover, .button:focus {
     background-color: #3e8e41;
   }
   
@@ -68,11 +60,17 @@ main {
     background-repeat: no-repeat;
     font-size: 16px;
     padding: 14px 20px 12px 45px;
+    position: relative;
+    float: right;
     border: none;
     border-bottom: 1px solid #ddd;
   }
  
   #myInput:focus {outline: 3px solid #ddd;}
+
+  .box {
+    
+  }
 
   .droprest {
     position: relative;
