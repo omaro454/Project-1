@@ -94,7 +94,7 @@ main {
   #myInput:focus {outline: 3px solid #ddd;}
 
   .box {
-    
+    background-color: rgb(0, 149, 255);
   }
 
   .droprest {
@@ -103,6 +103,7 @@ main {
   }
   
   .dropdown-content {
+    margin-top: 100px;
     display: none;
     position: absolute;
     background-color: #f6f6f6;
