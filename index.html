@@ -5,16 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Denver Exploration</title>
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+   integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+   crossorigin=""/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="css/style.css" />
 </head>
 <header>Welcome to Denver!</header>
 <br>
 <body>
     <main>
-    <div class="buttons">
-        <button class= "button">Attractions</button>
-        <button class= "button">Hotels</button>
-        <button onclick="myFunction()" class="button">Restaurants</button>
+
+       <!-- HTML for map button -->
+<button class="ogbutton" id="mapbtn">Map    
+    <div class="ogbuttons">
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+              <div class="map-container" style="height: 600px;">
+                <a id="map"></a>
+                
+              </div>
+            </div>
+            </button> 
+            <button class="modal-close is-large" aria-label="close" id="closebtn"></button>
+          </div>
+           <!-- HTML for weather button -->
+        <button class= "ogbutton">Weather</button>
+        <!-- HTML for restaurant button -->
+        <button onclick="myFunction()" class="ogbutton">Restaurants</button>
             <div id="Restaurants" class="dropdown-content">
               <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
               <div class="box">
@@ -54,7 +73,13 @@
                   </div>
                 </article>
               </div>
-    </div>   
+
+    </div> 
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+   integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+   crossorigin=""></script>
+ 
+
     <script src="script.js"></script>
 </body>
 </html>
