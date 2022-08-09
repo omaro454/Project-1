@@ -52,6 +52,3 @@ function myFunction() {
     }
 
   }
-Footer
-
-  }
