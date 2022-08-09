@@ -1,3 +1,4 @@
+
 //MAPS
 
 //API for maps functions
@@ -25,6 +26,7 @@ closeBtn.addEventListener("click", function(){
 //Restaurants
 
 //API for restaurant functions
+
 var restBtn = document.getElementById("Restaurants");
 
 restBtn.addEventListener("click", );
@@ -48,5 +50,8 @@ function myFunction() {
         a[i].style.display = "none";
       }
     }
+
   }
 Footer
+
+  }

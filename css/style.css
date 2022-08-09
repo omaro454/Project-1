@@ -49,6 +49,7 @@ main {
     font-size: 25px;
     font-weight: bolder;
 }
+
 /* CSS for map */
 
 #map {
@@ -73,6 +74,7 @@ main {
 /* Restaurant Dropdown  */
   
 .button:hover, .button:focus {
+
     background-color: #3e8e41;
   }
   
@@ -120,3 +122,4 @@ main {
   .dropdown-content a:hover {background-color: #f1f1f1}
   
   .show {display:block;}
+
