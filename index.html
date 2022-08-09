@@ -14,9 +14,9 @@
     <div class="buttons">
         <button class= "button">Attractions</button>
         <button class= "button">Hotels</button>
-        <button onclick="myFunction()" class="button">Restaurants</button>
+        <button onclick="myFunction" class="button">Restaurants</button>
             <div id="Restaurants" class="dropdown-content">
-              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+              <input type="text" placeholder="Search.." id="autocomplete" onkeyup="myFunction">
               <div class="box">
                 <article class="media">
                   <div class="media-left">
@@ -55,6 +55,9 @@
                 </article>
               </div>
     </div>   
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI8qKDZXrRqQBs8uKJaOP0J1D7gVbA-Ds&libraries=places&callback=initMap">
+</script>
     <script src="script.js"></script>
 </body>
 </html>

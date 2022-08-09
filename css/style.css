@@ -61,7 +61,7 @@ main {
     font-size: 16px;
     padding: 14px 20px 12px 45px;
     position: relative;
-    float: right;
+    float: left;
     border: none;
     border-bottom: 1px solid #ddd;
   }
@@ -69,7 +69,8 @@ main {
   #myInput:focus {outline: 3px solid #ddd;}
 
   .box {
-    
+    position: relative;
+    float: right;
   }
 
   .droprest {
@@ -79,6 +80,8 @@ main {
   
   .dropdown-content {
     display: none;
+    box-sizing: border-box;
+    width: 400px;
     position: absolute;
     background-color: #f6f6f6;
     min-width: 230px;
